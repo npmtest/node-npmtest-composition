@@ -1,6 +1,6 @@
 # npmtest-composition
 
-#### basic test coverage for  [composition (v2.3.0)](https://github.com/thenables/composition#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-composition.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-composition) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-composition.svg)](https://travis-ci.org/npmtest/node-npmtest-composition)
+#### basic test-coverage for  [composition (v2.3.0)](https://github.com/thenables/composition#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-composition.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-composition) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-composition.svg)](https://travis-ci.org/npmtest/node-npmtest-composition)
 
 #### Compose generator and async/await middleware
 
@@ -97,7 +97,8 @@
         "test-cov": "istanbul cover ./node_modules/.bin/_mocha -- --reporter dot",
         "test-travis": "istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
     },
-    "version": "2.3.0"
+    "version": "2.3.0",
+    "bin": {}
 }
 ```
 
